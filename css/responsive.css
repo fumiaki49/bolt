@@ -1,0 +1,15 @@
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+  .main__our-info {
+    padding-bottom: 25px;
+    text-align: center;
+  }
+  .main__our-info__contents-box {
+    display: unset;
+  }
+  .main__our-info__text-box {
+    margin-left: 0;
+  }
+  .main__our-info__text-box h3 {
+    margin: 20px 0 35px 0;
+  }
+}
