@@ -38,6 +38,8 @@ header {
   display: flex;
   justify-content: space-between;
   color: #4e4e4e;
+  width: 75%;
+  margin: 0 auto;
 }
 
 .contact-btn {
@@ -100,8 +102,11 @@ main {
 article {
   padding: 60px 0 70px 0;
 }
-.our-works__list {
+
+.our-works {
   margin-top: 40px;
+}
+.our-works__list {
   margin-bottom: 90px;
   display: flex;
   flex-wrap: wrap;
