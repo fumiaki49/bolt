@@ -1,15 +1,59 @@
 @media screen and (max-width: 1199px) and (min-width: 768px) {
+  .inner {
+    width: 100%;
+  }
+  /* インフォメーション */
   .main__our-info {
     padding-bottom: 25px;
     text-align: center;
   }
   .main__our-info__contents-box {
-    display: unset;
+    display: block;
   }
   .main__our-info__text-box {
     margin-left: 0;
   }
   .main__our-info__text-box h3 {
     margin: 20px 0 35px 0;
+  }
+
+  /* 作品一覧 */
+  .our-works {
+    text-align: center;
+  }
+  .our-works__list {
+    display: block;
+    flex-wrap: unset;
+  }
+  .our-works li {
+    margin: 0;
+  }
+  .our-works li:nth-child(3n) {
+    margin-bottom: 80px;
+  }
+  .our-works__text-box {
+    text-align: center;
+    width: 100%;
+    display: block;
+  }
+  .explanation.for-works {
+    margin-right: 0;
+  }
+  .contact-btn.for-email {
+    display: inline-block;
+    margin-top: 40px;
+  }
+
+  /* スキル一覧 */
+  .skills-list {
+    width: 100%;
+    display: block;
+  }
+  .skills-list__skill {
+    margin-right: 0;
+    margin-top: 88px;
+  }
+  .skills-list__skill:first-child {
+    margin-top: 0;
   }
 }
