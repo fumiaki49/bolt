@@ -14,94 +14,114 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
   </head>
-  <body>
-    <header>
-      <div class="header-inner">
-        <i class="fas fa-bolt fa-3x"></i>
-        <a class="contact-btn">Contact</a>
+  <body class="main-page">
+    <header class="header">
+      <div class="inner">
+        <div class="header-inner">
+          <i class="fas fa-bolt fa-3x"></i>
+          <button class="contact-btn">Contact</button>
+        </div>
       </div>
     </header>
+
     <main class="main-container">
-      <div class="inner main__title ">
-        <h1 class="theme-color">Bolt Theme</h1>
-        <h2>FREE BOOTSTRAP THEMES</h2>
+      <div class="inner section-title">
+        <div class="main-title">
+          <h1 class="theme-color">Bolt Theme</h1>
+          <h2>FREE BOOTSTRAP THEMES</h2>
+        </div>
       </div>
-      <section class="main__our-info">
-        <div class="inner main__our-info__contents-box">
-          <img src="img/iphone.png" alt="iphone画像">
-          <div class="main__our-info__text-box">
-            <h3 class="section-title">WHAT WE CAN DO?</h3>
-            <p class="explanation">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the
-              1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            </p>
+
+      <section class="our-info">
+        <div class="inner">
+          <div class="our-info__contents-box">
+            <img src="img/iphone.png" alt="iphone画像">
+            <div class="our-info__contents-box__text-box">
+              <h3 class="section-title">WHAT WE CAN DO?</h3>
+              <p class="explanation">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the
+                1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              </p>
+            </div>
           </div>
         </div>
       </section>
-      <article class="our-works">
+
+      <article class="show-works">
         <h3 class="section-title">OUR LATEST WORK</h3>
-        <div class="our-works inner">
-          <ul class="our-works__list">
-            <li><img src="img/01.jpg" alt="作品画像1"></li>
-            <li><img src="img/02.jpg" alt="作品画像2"></li>
-            <li><img src="img/03.jpg" alt="作品画像3"></li>
-            <li><img src="img/04.jpg" alt="作品画像4"></li>
-            <li><img src="img/05.jpg" alt="作品画像5"></li>
-            <li><img src="img/06.jpg" alt="作品画像6"></li>
-          </ul>
-          <div class="our-works__text-box">
-            <p class="explanation for-works defalut-color">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-               Lorem Ipsum has been the industry's standard dummy text ever.
-            </p>
-            <a class="contact-btn for-email">Email Me!</a>
+        <div class="inner">
+          <div class="our-works">
+            <ul class="our-works__list">
+              <li><img src="img/01.jpg" alt="作品画像1"></li>
+              <li><img src="img/02.jpg" alt="作品画像2"></li>
+              <li><img src="img/03.jpg" alt="作品画像3"></li>
+              <li><img src="img/04.jpg" alt="作品画像4"></li>
+              <li><img src="img/05.jpg" alt="作品画像5"></li>
+              <li><img src="img/06.jpg" alt="作品画像6"></li>
+            </ul>
+            <div class="our-works__text-box">
+              <p class="explanation for-works default-color">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever.
+              </p>
+              <button class="contact-btn for-email">Email Me!</button>
+            </div>
           </div>
         </div>
       </article>
-      <section class="main__our-skils">
-        <div class="inner main__our-skils__contents-box">
-          <h3 class="section-title">OUR SKILLS</h3>
-          <ul class="skills-list">
-            <li class="skills-list__skill">
-              <img src="img/circle_01.png" alt="スキル画像">
-              <p class="skills-list__skill-name">Javascript</p>
+
+      <section class="our-skils">
+        <div class="inner">
+          <div class="our-skils__contents-box">
+            <h3 class="section-title">OUR SKILLS</h3>
+            <div class="skills-list">
+              <figure class="skills-list__skill">
+                <img src="img/circle_01.png" alt="スキル画像">
+                <figcaption class="skills-list__skill-name">Javascript</figcaption>
+              </figure>
+              <figure class="skills-list__skill">
+                <img src="img/circle_02.png" alt="スキル画像">
+                <figcaption class="skills-list__skill-name">Bootstrap</figcaption>
+              </figure>
+              <figure class="skills-list__skill">
+                <img src="img/circle_03.png" alt="スキル画像">
+                <figcaption class="skills-list__skill-name">WordPress</figcaption>
+              </figure>
+              <figure class="skills-list__skill">
+                <img src="img/circle_04.png" alt="スキル画像">
+                <figcaption class="skills-list__skill-name">Photoshop</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <nav class="navigation">
+        <div class="inner">
+          <ul class="sns-links">
+            <li class="sns-links__link">
+              <i class="fab fa-facebook-f"></i>
             </li>
-            <li class="skills-list__skill">
-              <img src="img/circle_02.png" alt="スキル画像">
-              <p class="skills-list__skill-name">Bootstrap</p>
+            <li class="sns-links__link">
+              <i class="fas fa-basketball-ball"></i>
             </li>
-            <li class="skills-list__skill">
-              <img src="img/circle_03.png" alt="スキル画像">
-              <p class="skills-list__skill-name">WordPress</p>
+            <li class="sns-links__link">
+              <i class="fab fa-twitter"></i>
             </li>
-            <li class="skills-list__skill">
-              <img src="img/circle_04.png" alt="スキル画像">
-              <p class="skills-list__skill-name">Photoshop</p>
+            <li class="sns-links__link">
+              <i class="fas fa-envelope"></i>
             </li>
           </ul>
         </div>
-      </section>
-      <nav class="navigation">
-        <ul class="sns-links inner">
-          <li class="sns-links__link">
-            <i class="fab fa-facebook-f"></i>
-          </li>
-          <li class="sns-links__link">
-            <i class="fas fa-basketball-ball"></i>
-          </li>
-          <li class="sns-links__link">
-            <i class="fab fa-twitter"></i>
-          </li>
-          <li class="sns-links__link">
-            <i class="fas fa-envelope"></i>
-          </li>
-        </ul>
       </nav>
     </main>
-    <footer>
-      <div class="footer-text inner">
-        <p>Crafted with <span><i class="fas fa-heart"></i></span> by BlackTie.co.</p>
+
+    <footer class="footer">
+      <div class="inner">
+        <div class="footer-text">
+          <p>Crafted with <span><i class="fas fa-heart"></i></span> by BlackTie.co.</p>
+        </div>
       </div>
     </footer>
   </body>
