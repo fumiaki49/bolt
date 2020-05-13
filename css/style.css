@@ -84,11 +84,11 @@
 /* インフォメーション */
 .our-info {
   background-color: #74cfae;
+  padding-top: 50px;
 }
 
 .our-info__contents-box {
   color: #fff;
-  padding-top: 50px;
   display: flex;
   justify-content: center;
 }
@@ -117,13 +117,12 @@
 }
 
 .our-works__list {
-  margin-bottom: 90px;
   display: flex;
   flex-wrap: wrap;
 }
 
 .our-works__list li {
-  margin-right: 100px;
+  margin-left: 100px;
   margin-top: 80px;
   opacity: 0.7;
   transition: opacity 0.3s;
@@ -134,8 +133,8 @@
   cursor: pointer;
 }
 
-.our-works__list li:nth-child(3n) {
-  margin-right: 0;
+.our-works__list li:nth-child(3n+1) {
+  margin-left: 0;
 }
 
 .our-works__list li:nth-child(-n+3) {
@@ -143,19 +142,17 @@
 }
 
 .our-works__text-box {
+  padding-top: 90px;
   display: flex;
   align-items: flex-start;
   width: 770px;
   margin: 0 auto;
 }
 
-.explanation.for-works {
-  margin-right: 90px;
-}
-
 .contact-btn.for-email {
   padding: 14px 20px;
   white-space: nowrap;
+  margin-left: 90px;
 }
 
 /* スキル一覧 */
@@ -172,12 +169,12 @@
 }
 
 .skills-list__skill {
-  margin-right: 180px;
+  margin-left: 180px;
   text-align: center;
 }
 
-.skills-list__skill:last-child {
-  margin-right: 0;
+.skills-list__skill:first-child {
+  margin-left: 0;
 }
 
 .skills-list__skill-name {
