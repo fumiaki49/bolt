@@ -11,6 +11,7 @@
 
   .our-info__contents-box__text-box {
     width: 100%;
+    margin-left: unset;
   }
 
   .our-info__contents-box {
