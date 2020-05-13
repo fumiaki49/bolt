@@ -1,20 +1,20 @@
-@media screen and (max-width: 1199px) and (min-width: 768px) {
+@media screen and (max-width: 1199px) and (min-width: 768px), (max-width: 767px) {
   .inner {
     width: 97%;
   }
+
   /* インフォメーション */
   .our-info {
     padding-bottom: 25px;
     text-align: center;
   }
 
-  .our-info__contents-box {
-    display: block;
+  .our-info__contents-box__text-box {
+    width: 100%;
   }
 
-  .our-info__contents-box__text-box {
-    width: 80%;
-    margin: 0 auto;
+  .our-info__contents-box {
+    display: block;
   }
 
   .our-info__contents-box__text-box h3 {
@@ -57,9 +57,8 @@
     margin-top: 40px;
   }
 
-  /* スキル一覧 */
+   /* スキル一覧 */
   .skills-list {
-    width: 100%;
     display: block;
   }
 
@@ -71,13 +70,12 @@
   .skills-list__skill:first-child {
     margin-top: 0;
   }
+
+
+
 }
 
 @media screen and (max-width: 767px) {
-  .inner {
-    width: 97%;
-  }
-
   /* ヘッダー */
   .contact-btn {
     display: none;
@@ -101,75 +99,6 @@
 
   .main-title h1 {
     font-size: 80px;
-  }
-
-  /* インフォメーション */
-  .our-info {
-    padding-bottom: 25px;
-    text-align: center;
-  }
-
-  .our-info__contents-box {
-    display: block;
-  }
-
-  .our-info__contents-box__text-box {
-    width: 100%;
-  }
-
-  .our-info__text-box h3 {
-    margin: 20px 0 35px 0;
-  }
-
-  /* 作品一覧 */
-  .our-works {
-    text-align: center;
-  }
-
-  .our-works__list {
-    display: block;
-    flex-wrap: unset;
-  }
-
-  .our-works li {
-    width: 300px;
-    margin: 0 auto;
-    font-size: 0;
-  }
-
-  .our-works li:nth-child(3n) {
-    margin-bottom: 80px;
-    margin-right: auto;
-  }
-
-  .our-works__text-box {
-    text-align: center;
-    width: 100%;
-    display: block;
-  }
-
-  .explanation.for-works {
-    margin-right: 0;
-  }
-
-  .contact-btn.for-email {
-    display: inline-block;
-    margin-top: 40px;
-  }
-
-  /* スキル一覧 */
-  .skills-list {
-    width: 100%;
-    display: block;
-  }
-
-  .skills-list__skill {
-    margin-right: 0;
-    margin-top: 88px;
-  }
-
-  .skills-list__skill:first-child {
-    margin-top: 0;
   }
 
   /* snsナビゲーション */
