@@ -57,6 +57,7 @@
   border-color: #74cfae;
   color: #fff;
   transition: color 0.3s;
+  font-family: 'Raleway', sans-serif;
 }
 
 .contact-btn:hover {
@@ -99,7 +100,7 @@
 }
 
 .our-info__contents-box__text-box h3 {
-  margin-top: 20px;
+  padding-top: 20px;
 }
 
 .our-info__contents-box__text-box p {
@@ -198,7 +199,6 @@
   box-sizing: border-box;
   text-align: center;
   width: 185px;
-  color: #74cfae;
   transition: background-color 0.3s;
 }
 
