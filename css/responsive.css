@@ -1,19 +1,23 @@
 @media screen and (max-width: 1199px) and (min-width: 768px) {
   .inner {
-    width: 100%;
+    width: 97%;
   }
   /* インフォメーション */
-  .main__our-info {
+  .our-info {
     padding-bottom: 25px;
     text-align: center;
   }
-  .main__our-info__contents-box {
+
+  .our-info__contents-box {
     display: block;
   }
-  .main__our-info__text-box {
-    margin-left: 0;
+
+  .our-info__contents-box__text-box {
+    width: 80%;
+    margin: 0 auto;
   }
-  .main__our-info__text-box h3 {
+
+  .our-info__contents-box__text-box h3 {
     margin: 20px 0 35px 0;
   }
 
@@ -21,24 +25,33 @@
   .our-works {
     text-align: center;
   }
+
   .our-works__list {
     display: block;
     flex-wrap: unset;
   }
+
   .our-works li {
-    margin: 0;
+    margin: 0 auto;
+    font-size: 0;
+    width: 300px;
   }
+
   .our-works li:nth-child(3n) {
     margin-bottom: 80px;
+    margin-right: auto;
   }
+
   .our-works__text-box {
     text-align: center;
     width: 100%;
     display: block;
   }
+
   .explanation.for-works {
     margin-right: 0;
   }
+
   .contact-btn.for-email {
     display: inline-block;
     margin-top: 40px;
@@ -49,10 +62,12 @@
     width: 100%;
     display: block;
   }
+
   .skills-list__skill {
     margin-right: 0;
     margin-top: 88px;
   }
+
   .skills-list__skill:first-child {
     margin-top: 0;
   }
@@ -60,12 +75,14 @@
 
 @media screen and (max-width: 767px) {
   .inner {
-    width: 100%;
+    width: 97%;
   }
+
   /* ヘッダー */
   .contact-btn {
     display: none;
   }
+
   .header-inner::after {
     font-size: 30px;
     color: #ddd;
@@ -78,25 +95,29 @@
   }
 
   /* メインタイトル */
-  .main__title {
+  .main-title {
     padding: 160px 0 130px 0;
   }
-  .main__title h1 {
+
+  .main-title h1 {
     font-size: 80px;
   }
 
   /* インフォメーション */
-  .main__our-info {
+  .our-info {
     padding-bottom: 25px;
     text-align: center;
   }
-  .main__our-info__contents-box {
+
+  .our-info__contents-box {
     display: block;
   }
-  .main__our-info__text-box {
-    margin-left: 0;
+
+  .our-info__contents-box__text-box {
+    width: 100%;
   }
-  .main__our-info__text-box h3 {
+
+  .our-info__text-box h3 {
     margin: 20px 0 35px 0;
   }
 
@@ -104,24 +125,33 @@
   .our-works {
     text-align: center;
   }
+
   .our-works__list {
     display: block;
     flex-wrap: unset;
   }
+
   .our-works li {
-    margin: 0;
+    width: 300px;
+    margin: 0 auto;
+    font-size: 0;
   }
+
   .our-works li:nth-child(3n) {
     margin-bottom: 80px;
+    margin-right: auto;
   }
+
   .our-works__text-box {
     text-align: center;
     width: 100%;
     display: block;
   }
+
   .explanation.for-works {
     margin-right: 0;
   }
+
   .contact-btn.for-email {
     display: inline-block;
     margin-top: 40px;
@@ -132,24 +162,29 @@
     width: 100%;
     display: block;
   }
+
   .skills-list__skill {
     margin-right: 0;
     margin-top: 88px;
   }
+
   .skills-list__skill:first-child {
     margin-top: 0;
   }
 
   /* snsナビゲーション */
   .navigation {
-    padding: 50px 0;
+    padding: 50px 15px;
   }
+
   .sns-links {
     display: block;
     justify-content: unset;
     text-align: center;
   }
+
   .sns-links__link {
     display: inline-block;
+    width: 100%;
   }
 }
