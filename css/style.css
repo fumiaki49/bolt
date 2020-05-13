@@ -36,8 +36,6 @@
   width: 100%;
   padding: 15px 0;
   background-color: white;
-  position: fixed;
-  z-index: 1;
 }
 
 .header-inner {
@@ -61,10 +59,6 @@
   cursor: pointer;
 }
 
-/* メイン */
-.main-container {
-  padding-top: 78px;
-}
 
 /* メインタイトル */
 .main-title {
