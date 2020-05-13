@@ -38,9 +38,13 @@
     width: 300px;
   }
 
-  .our-works li:nth-child(3n) {
-    margin-bottom: 80px;
-    margin-right: auto;
+  .our-works__list li:nth-child(3n+1) {
+    margin-top: 80px;
+    margin-left: auto;
+  }
+
+  .our-works__list li:first-child {
+    margin-top: 0;
   }
 
   .our-works__text-box {
@@ -50,12 +54,13 @@
   }
 
   .explanation.for-works {
-    margin-right: 0;
+    margin-left: 0;
   }
 
   .contact-btn.for-email {
     display: inline-block;
     margin-top: 40px;
+    margin-left: unset;
   }
 
    /* スキル一覧 */
@@ -64,16 +69,13 @@
   }
 
   .skills-list__skill {
-    margin-right: 0;
+    margin-left: 0;
     margin-top: 88px;
   }
 
   .skills-list__skill:first-child {
     margin-top: 0;
   }
-
-
-
 }
 
 @media screen and (max-width: 767px) {
