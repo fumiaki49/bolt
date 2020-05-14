@@ -18,18 +18,9 @@
     display: block;
   }
 
-  .our-info__contents-box__text-box h3 {
-    margin: 20px 0 35px 0;
-  }
-
   /* 作品一覧 */
-  .our-works {
-    text-align: center;
-  }
-
   .our-works__list {
     display: block;
-    flex-wrap: unset;
   }
 
   .our-works li {
@@ -48,9 +39,10 @@
   }
 
   .our-works__text-box {
-    text-align: center;
     width: 100%;
     display: block;
+    text-align: center;
+    padding-top: 80px;
   }
 
   .explanation.for-works {
@@ -111,8 +103,6 @@
 
   .sns-links {
     display: block;
-    justify-content: unset;
-    text-align: center;
   }
 
   .sns-links__link {
