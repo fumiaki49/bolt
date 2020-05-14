@@ -55,6 +55,9 @@
   cursor: pointer;
 }
 
+.hanburger-menu {
+  display: none;
+}
 
 /* メインタイトル */
 .main-title {
